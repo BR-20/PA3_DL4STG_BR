@@ -1,0 +1,351 @@
+{
+ "q3a": {
+  "n_sensors": 716,
+  "first_stamp": "2020-01-01 00:00:00",
+  "last_stamp": "2021-12-31 23:45:00",
+  "T_15min": 70176,
+  "T_5min": 210528,
+  "raw_integer_share": 1.0,
+  "resample_checks": [
+   {
+    "time": "2021-04-07 22:15:00",
+    "sensor": "1111547",
+    "five_min_values": [
+     223.0,
+     205.0,
+     234.0
+    ],
+    "fifteen_min_value": 662.0
+   },
+   {
+    "time": "2021-01-04 23:15:00",
+    "sensor": "1121724",
+    "five_min_values": [
+     55.0,
+     57.0,
+     64.0
+    ],
+    "fifteen_min_value": 176.0
+   },
+   {
+    "time": "2021-09-12 16:30:00",
+    "sensor": "1108599",
+    "five_min_values": [
+     309.0,
+     326.0,
+     284.0
+    ],
+    "fifteen_min_value": 919.0
+   }
+  ],
+  "missing": {
+   "raw_5min_cells": 150738048,
+   "raw_5min_missing": 7636666,
+   "raw_5min_missing_pct": 5.066183423046582,
+   "raw_rows_added_by_reindex": 0,
+   "flow_15min_cells": 50246016,
+   "flow_15min_missing": 2550289,
+   "flow_15min_missing_pct": 5.075604402148023,
+   "sensors_with_any_missing": 716,
+   "sensors_over_50pct_missing": 43,
+   "max_sensor_missing_pct": 100.0
+  },
+  "week_plot": {
+   "start": "2020-01-06 00:00:00",
+   "end": "2020-01-12 23:45:00",
+   "n_steps": 672,
+   "sensors": {
+    "1114720": {
+     "min": 63.0,
+     "max": 712.0,
+     "mean": 394.2872023809524,
+     "max_time": "2020-01-10 05:15:00"
+    },
+    "1117835": {
+     "min": 49.0,
+     "max": 1792.0,
+     "mean": 809.3020833333334,
+     "max_time": "2020-01-07 07:00:00"
+    },
+    "1117717": {
+     "min": 41.0,
+     "max": 1715.0,
+     "mean": 778.0282738095239,
+     "max_time": "2020-01-07 06:30:00"
+    }
+   }
+  },
+  "week_sensors": [
+   "1114720",
+   "1117835",
+   "1117717"
+  ]
+ },
+ "q3b": {
+  "ordering": {
+   "first_three": [
+    [
+     "1114091",
+     6931
+    ],
+    [
+     "1118333",
+     6932
+    ],
+    [
+     "1118348",
+     6933
+    ]
+   ],
+   "n": 716
+  },
+  "stats": {
+   "nodes": 716,
+   "nonzero_edges_offdiag": 17319,
+   "diag_nonzero": 716,
+   "symmetric": false,
+   "max_abs_asym": 0.9999998696620915,
+   "asym_ordered_pairs": 21022,
+   "asym_unordered_pairs": 10511,
+   "density_pct": 3.3830136344102826,
+   "weight_min": 0.010001835317713963,
+   "weight_max": 0.9999998696620915,
+   "out_degree_min": 0,
+   "out_degree_median": 20.0,
+   "out_degree_max": 70,
+   "out_degree_mean": 24.18854748603352,
+   "in_degree_min": 0,
+   "in_degree_max": 68,
+   "isolated_out": 8
+  }
+ },
+ "q3c": {
+  "node_index": 256,
+  "node_id": "1108358",
+  "one_hop_count": 20,
+  "two_hop_count": 48,
+  "one_hop_ids": [
+   "1111530",
+   "1122637",
+   "1122636",
+   "1122645",
+   "1122646",
+   "1115620",
+   "1115477",
+   "1116593",
+   "1116594",
+   "1108385",
+   "1108356",
+   "1111561",
+   "1108387",
+   "1108353",
+   "1111563",
+   "1115612",
+   "1115537",
+   "1115616",
+   "1115541",
+   "1111575"
+  ],
+  "two_hop_only_ids": [
+   "1111535",
+   "1115463",
+   "1111532",
+   "1111531",
+   "1115624",
+   "1115486",
+   "1115490",
+   "1115628",
+   "1127026",
+   "1118767",
+   "1108341",
+   "1108423",
+   "1108347",
+   "1115608",
+   "1108351",
+   "1111569",
+   "1108389",
+   "1108419",
+   "1113364",
+   "1111555",
+   "1111557",
+   "1113915",
+   "1113222",
+   "1113894",
+   "1108326",
+   "1111554",
+   "1111556",
+   "1113904"
+  ]
+ },
+ "q4a": {
+  "norm": {
+   "mean": 607.16998318722,
+   "std": 483.3516052269983,
+   "train_last_stamp": "2020-12-31 23:45:00",
+   "n_values": 24122721
+  },
+  "window_counts": {
+   "train": 35125,
+   "val": 8629,
+   "test": 26389
+  },
+  "split_rows": {
+   "train": 35136,
+   "val": 8640,
+   "test": 26400
+  },
+  "window_checks": {
+   "train": {
+    "t": 7,
+    "input_stamps": [
+     "2020-01-01 00:00:00",
+     "2020-01-01 01:45:00"
+    ],
+    "target_stamps": [
+     "2020-01-01 02:00:00",
+     "2020-01-01 02:45:00"
+    ],
+    "x_shape": [
+     8,
+     716,
+     1
+    ],
+    "y_shape": [
+     4,
+     716,
+     1
+    ],
+    "first_window_start": "2020-01-01 00:00:00",
+    "last_window_end": "2020-12-31 23:45:00"
+   },
+   "val": {
+    "t": 7,
+    "input_stamps": [
+     "2021-01-01 00:00:00",
+     "2021-01-01 01:45:00"
+    ],
+    "target_stamps": [
+     "2021-01-01 02:00:00",
+     "2021-01-01 02:45:00"
+    ],
+    "x_shape": [
+     8,
+     716,
+     1
+    ],
+    "y_shape": [
+     4,
+     716,
+     1
+    ],
+    "first_window_start": "2021-01-01 00:00:00",
+    "last_window_end": "2021-03-31 23:45:00"
+   },
+   "test": {
+    "t": 7,
+    "input_stamps": [
+     "2021-04-01 00:00:00",
+     "2021-04-01 01:45:00"
+    ],
+    "target_stamps": [
+     "2021-04-01 02:00:00",
+     "2021-04-01 02:45:00"
+    ],
+    "x_shape": [
+     8,
+     716,
+     1
+    ],
+    "y_shape": [
+     4,
+     716,
+     1
+    ],
+    "first_window_start": "2021-04-01 00:00:00",
+    "last_window_end": "2021-12-31 23:45:00"
+   }
+  },
+  "norm_roundtrip_max_diff": 4.547473508864641e-13
+ },
+ "model_checks": {
+  "none": {
+   "z_shape": [
+    4,
+    716,
+    32
+   ],
+   "y_shape": [
+    4,
+    4,
+    716
+   ],
+   "n_params": 8516
+  },
+  "fixed": {
+   "z_shape": [
+    4,
+    716,
+    32
+   ],
+   "y_shape": [
+    4,
+    4,
+    716
+   ],
+   "n_params": 8516,
+   "graph_loop_max_diff": 5.21540641784668e-08
+  },
+  "adaptive": {
+   "z_shape": [
+    4,
+    716,
+    32
+   ],
+   "y_shape": [
+    4,
+    4,
+    716
+   ],
+   "n_params": 22836,
+   "graph_loop_max_diff": 7.450580596923828e-08
+  },
+  "hybrid": {
+   "z_shape": [
+    4,
+    716,
+    32
+   ],
+   "y_shape": [
+    4,
+    4,
+    716
+   ],
+   "n_params": 22836,
+   "graph_loop_max_diff": 1.341104507446289e-07
+  }
+ },
+ "cfg": {
+  "d": 32,
+  "d_e": 10,
+  "alpha": 0.5,
+  "lr": 0.001,
+  "batch_size": 64,
+  "max_epochs": 30,
+  "patience": 5,
+  "top_k_analysis": 10
+ },
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "hardware": {
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "cpu": "Intel(R) Xeon(R) CPU @ 2.00GHz",
+  "cpu_threads": 2,
+  "torch": "2.14.1+cu130",
+  "python": "3.13.16"
+ },
+ "fixed_effective_neighbours": 13.724955066047407
+}

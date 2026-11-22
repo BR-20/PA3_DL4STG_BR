@@ -1,0 +1,190 @@
+{
+ "q1a": {
+  "hood_a": [
+   -1,
+   1
+  ],
+  "hood_b": [
+   0,
+   0
+  ],
+  "n_v": 2,
+  "S_v": 0,
+  "steady_a": 0,
+  "steady_b": 2,
+  "trials": 100
+ },
+ "q1b": {
+  "K": 8,
+  "phi": {
+   "-1": 1,
+   "0": 9,
+   "1": 81
+  },
+  "n_triples": 164,
+  "n_distinct_sums": 164,
+  "max_sum": 648,
+  "base_K_collision_sum": 8,
+  "nonsteady_checked_up_to": 50
+ },
+ "q1c": {
+  "n_neighbourhoods": 164,
+  "rows": [
+   {
+    "task": "(i) Count steady neighbours",
+    "method": "Sum",
+    "possible": true,
+    "witness": null
+   },
+   {
+    "task": "(i) Count steady neighbours",
+    "method": "Mean",
+    "possible": false,
+    "witness": {
+     "hood_1": [
+      0,
+      1,
+      0
+     ],
+     "hood_2": [
+      0,
+      2,
+      0
+     ],
+     "vector": [
+      "0",
+      "1",
+      "0"
+     ],
+     "answer_1": 1,
+     "answer_2": 2
+    }
+   },
+   {
+    "task": "(i) Count steady neighbours",
+    "method": "Max",
+    "possible": false,
+    "witness": {
+     "hood_1": [
+      0,
+      1,
+      0
+     ],
+     "hood_2": [
+      0,
+      2,
+      0
+     ],
+     "vector": [
+      "0",
+      "1",
+      "0"
+     ],
+     "answer_1": 1,
+     "answer_2": 2
+    }
+   },
+   {
+    "task": "(ii) More than half slowing",
+    "method": "Sum",
+    "possible": true,
+    "witness": null
+   },
+   {
+    "task": "(ii) More than half slowing",
+    "method": "Mean",
+    "possible": true,
+    "witness": null
+   },
+   {
+    "task": "(ii) More than half slowing",
+    "method": "Max",
+    "possible": false,
+    "witness": {
+     "hood_1": [
+      1,
+      0,
+      1
+     ],
+     "hood_2": [
+      2,
+      0,
+      1
+     ],
+     "vector": [
+      "1",
+      "0",
+      "1"
+     ],
+     "answer_1": false,
+     "answer_2": true
+    }
+   },
+   {
+    "task": "(iii) Any neighbour slowing",
+    "method": "Sum",
+    "possible": true,
+    "witness": null
+   },
+   {
+    "task": "(iii) Any neighbour slowing",
+    "method": "Mean",
+    "possible": true,
+    "witness": null
+   },
+   {
+    "task": "(iii) Any neighbour slowing",
+    "method": "Max",
+    "possible": true,
+    "witness": null
+   }
+  ],
+  "yes_rules_checked": 6
+ },
+ "q2a_fit": {
+  "a": 0.0,
+  "b": 0.4999999999999999,
+  "sse": 0.5,
+  "pred_19_20_21": [
+   0.4999999999999999,
+   0.0,
+   0.4999999999999999
+  ],
+  "true_19_20_21": [
+   1.0,
+   0.0,
+   0.0
+  ]
+ },
+ "q2a_rollout": {
+  "pred_peak_sensor_t20": 20,
+  "pred_peak_height_t20": 0.4046884632675118,
+  "true_peak_sensor_t20": 0,
+  "true_peak_height_t20": 1.0,
+  "width_t0": 5,
+  "pred_width_t20": 11,
+  "true_width_t20": 5,
+  "pred_sum_t0": 5.013256549262001,
+  "pred_sum_t20": 5.013256549261978
+ },
+ "q2b": {
+  "a": 0.0,
+  "w_minus": 0.0,
+  "w_plus": 1.0,
+  "kernel": [
+   0.0,
+   0.0,
+   1.0
+  ],
+  "max_abs_error": 0.0,
+  "trials": 100
+ },
+ "q2c": {
+  "a": 0.0,
+  "b": 1.0,
+  "c": -1.0,
+  "max_abs_error_backward": 4.440892098500626e-16,
+  "max_abs_error_forward": 4.440892098500626e-16,
+  "trials": 100
+ }
+}

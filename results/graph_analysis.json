@@ -1,0 +1,77 @@
+[
+ {
+  "k": 10,
+  "n_edges": 7160,
+  "share_in_road_pct": 5.935754189944134,
+  "chance_in_road_pct": 3.3830136344102826,
+  "share_in_road_either_pct": 7.360335195530726,
+  "chance_in_road_either_pct": 4.107903269914443,
+  "median_km_learned": 21.264314390133485,
+  "median_km_road": 2.371061186383964,
+  "median_km_random": 23.52879302352649,
+  "absent_from_road_count": 6633,
+  "absent_from_road_pct": 92.63966480446926,
+  "corr_learned_absent": 0.870663509638351,
+  "corr_random": 0.8438069478036873,
+  "max_row_weight_mean": 0.3411233425140381,
+  "uniform_weight": 0.0013966480446927375,
+  "effective_neighbours": 7.178616046905518,
+  "strongest_absent_example": {
+   "from_id": "1125610",
+   "to_id": "1118989",
+   "weight": 0.9999533891677856,
+   "distance_km": 26.71064142193809,
+   "train_corr": 0.5608501656165669
+  }
+ },
+ {
+  "k": 10,
+  "n_edges": 7160,
+  "share_in_road_pct": 6.494413407821228,
+  "chance_in_road_pct": 3.3830136344102826,
+  "share_in_road_either_pct": 7.918994413407822,
+  "chance_in_road_either_pct": 4.107903269914443,
+  "median_km_learned": 20.256013176304656,
+  "median_km_road": 2.371061186383964,
+  "median_km_random": 23.52879302352649,
+  "absent_from_road_count": 6593,
+  "absent_from_road_pct": 92.08100558659218,
+  "corr_learned_absent": 0.8679157368290097,
+  "corr_random": 0.8438069478036873,
+  "max_row_weight_mean": 0.3281027376651764,
+  "uniform_weight": 0.0013966480446927375,
+  "effective_neighbours": 7.355847358703613,
+  "strongest_absent_example": {
+   "from_id": "1125668",
+   "to_id": "1126526",
+   "weight": 0.9999889135360718,
+   "distance_km": 44.86800464543257,
+   "train_corr": 0.8591246069819453
+  }
+ },
+ {
+  "k": 10,
+  "n_edges": 7160,
+  "share_in_road_pct": 6.592178770949721,
+  "chance_in_road_pct": 3.3830136344102826,
+  "share_in_road_either_pct": 8.016759776536313,
+  "chance_in_road_either_pct": 4.107903269914443,
+  "median_km_learned": 20.152123270143814,
+  "median_km_road": 2.371061186383964,
+  "median_km_random": 23.52879302352649,
+  "absent_from_road_count": 6586,
+  "absent_from_road_pct": 91.9832402234637,
+  "corr_learned_absent": 0.867029502626063,
+  "corr_random": 0.8438069478036873,
+  "max_row_weight_mean": 0.30401256680488586,
+  "uniform_weight": 0.0013966480446927375,
+  "effective_neighbours": 8.034037590026855,
+  "strongest_absent_example": {
+   "from_id": "1125610",
+   "to_id": "1125668",
+   "weight": 0.9999191761016846,
+   "distance_km": 8.213175727393553,
+   "train_corr": 0.9405468669816771
+  }
+ }
+]

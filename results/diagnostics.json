@@ -1,0 +1,22 @@
+{
+ "fixed": {
+  "self_weight_mean": 0.1734921783845724,
+  "effective_neighbours": 13.724955066047407,
+  "level_gap_mean": 97.28945256487769,
+  "level_gap_pct_of_mean_level": 16.093711019558057
+ },
+ "adaptive": {
+  "self_weight_mean": 0.029293082654476166,
+  "effective_neighbours": 7.522833665211995,
+  "level_gap_mean": 73.55070769389748,
+  "level_gap_pct_of_mean_level": 12.16682593747987
+ },
+ "hybrid": {
+  "self_weight_mean": 0.0956551656126976,
+  "effective_neighbours": 14.089059511820475,
+  "level_gap_mean": 79.90554601194243,
+  "level_gap_pct_of_mean_level": 13.218049156136887
+ },
+ "mean_sensor_level": 604.5184510063939,
+ "sensors_without_training_level": 19
+}
