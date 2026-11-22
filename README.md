@@ -1,6 +1,10 @@
 # AI651 Assignment 3: Graph neural networks for traffic forecasting
 
-Code for all seven questions of AI651 Deep Learning for Space, Time and Graphs, Assignment 3, Fall 2026. Questions 1 and 2 are small NumPy checks. Questions 3 to 7 train four forecasting models on the LargeST San Diego data.
+Code for all seven questions of AI651 Deep Learning for Space, Time and Graphs, Assignment 3, Fall 2026. 
+
+Questions 1 and 2 are small NumPy checks. 
+
+Questions 3 to 7 train four forecasting models on the LargeST San Diego data.
 
 ## Files
 
